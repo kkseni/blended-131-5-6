@@ -1,0 +1,39 @@
+.about-us {
+    padding: 75px 0;
+
+}
+
+.about-us-container {}
+
+.about-us-title {
+    margin-bottom: 50px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1.13;
+    letter-spacing: -0.04em;
+    color: #fff;
+}
+
+.about-us-span {
+    color: #bea69e;
+}
+
+.about-us-wrap {
+    display: flex;
+    gap: 40px;
+}
+
+.about-us-list {
+    display: flex;
+    gap: 20px;
+}
+
+.about-us-item {}
+
+.about-us-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: #fff;
+}

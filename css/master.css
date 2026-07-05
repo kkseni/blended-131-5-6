@@ -1,0 +1,22 @@
+.master {
+    stroke-width: 1px;
+    stroke: rgba(255, 255, 255, 0.2);
+}
+
+.master-container {
+    width: 1300px;
+}
+
+.master-title {
+    font-weight: 400;
+    font-size: 59px;
+    line-height: 1.08;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #bea69e;
+  
+}
+
+.master-title-span {
+    color: #fff;
+}

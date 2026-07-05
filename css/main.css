@@ -1,0 +1,7 @@
+/* скидання стандартних стилів браузера */
+@import url(./common.css);
+
+/* Основні файли стилів кожної секції */
+@import url(./hero.css);
+@import url(./master.css);
+@import url(./about-us.css);
