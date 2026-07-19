@@ -1,4 +1,10 @@
-.hero {}
+.hero {
+    background-image: url(../images/grafic-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 160px 0 150px;
+}
 
 .hero-container {
     background: #1d1d1d;
@@ -41,7 +47,31 @@
     display: flex;
 }
 
-.hero-reviews-box {}
+.hero-icon-stud {
+    fill: #fff;
+}
+
+.hero-reviews-box {
+    display: flex;
+    gap: 12px;
+}
+
+.hero-reviews-curcle {
+    width: 50px;
+    height: 50px;
+    background: #bea69e;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-rev-star {
+    stroke-width: 1.50px;
+    stroke: #121212;
+    fill: transparent;
+
+}
 
 .hero-list {
     display: flex;
@@ -51,16 +81,16 @@
 .hero-list-item:not(:last-child) {
     margin-right: -13px;
 }
-.hero-list-item:nth-child(1){
-    z-index:3;
+
+.hero-list-item:nth-child(1) {
+    z-index: 3;
 }
+
 .hero-list-item:nth-child(2) {
     z-index: 2;
 }
 
-.hero-list-img {
-
-}
+.hero-list-img {}
 
 .hero-link-students {
     font-weight: 400;

@@ -1,0 +1,78 @@
+.header {
+    position: absolute;
+    top: 20px;
+    /* left: 14.5%; */
+    left: 200px;
+    background: #121212;
+    margin: 0 auto;
+
+}
+
+.container {}
+
+.header-container {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header-wrap {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    display: flex;
+    gap: 97px;
+    padding: 0 50px;
+    align-items: center;
+    justify-content: center;
+    width: 822px;
+}
+
+.logo-header {}
+
+.header-navigation {}
+
+.header-nav-list {
+    display: flex;
+    gap: 28px;
+
+}
+
+.nav-list-item {}
+
+.nav-list-link {
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    display: block;
+    padding: 21px 0;
+    transition:  600ms color cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus {
+    color: #bea69e;
+}
+
+.header-btn {
+    border-radius: 12px;
+    padding: 16px;
+    width: 239px;
+    height: 60px;
+    background: #fff;
+    font-weight: 700;
+    font-size: 18px;
+
+    /* line-height: 28px; */
+    line-height: 156%;
+    text-transform: uppercase;
+    color: #121212;
+    transition: 6000ms background cubic-bezier(0.075, 0.82, 0.165, 1), 600ms color cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.header-btn:hover,
+.header-btn:focus {
+    background: #1d1d1d;
+    color: #bea69e;
+}
