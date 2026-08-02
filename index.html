@@ -41,13 +41,27 @@
             </li>
           </ul>
         </nav>
+
+        <!-- mobile version and tablet -->
+        <div class="mob-btn">
+          <a href="#sign-up" class="mob-sinup-link">
+            <svg width="16" height="12" viewBox="0 0 24 24" class="mob-sinup-icon">
+              <use href="./images/symbol-defs.svg#icon-photo" />
+            </svg>
+          </a>
+          <button type="button" class="mob-open-menu">
+            <svg width="32" height="22" viewBox="0 0 24 24" class="mob-open-icon">
+              <use href="./images/symbol-defs.svg#icon-open-menu" />
+            </svg>
+          </button>
+        </div>
       </div>
       <button type="button" class="header-btn">Sign up</button>
     </div>
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero" hidden>
       <div class="container hero-container">
         <!--  h1+p+img+(ul>li*3>img)+a+p+p -->
         <div class="hero-wrap">
@@ -95,7 +109,7 @@
         <img src="./images/hero-photo.avif" alt="hero-photo" class="hero-photo" width="397" />
       </div>
     </section>
-    <section class="master">
+    <section class="master" hidden>
       <div class="container master-container">
         <h2 class="master-title">
           Master
@@ -104,7 +118,7 @@
         </h2>
       </div>
     </section>
-    <section id="about-us" class="about-us">
+    <section id="about-us" class="about-us" hidden>
       <div class="container about-us-container">
         <!-- h2+img+ul>li*2>p -->
         <h2 class="about-us-title">
@@ -138,7 +152,7 @@
         </div>
       </div>
     </section>
-    <section id="our-courses">
+    <section id="our-courses" hidden>
       <!-- h2+p+ol>li*3>h3+p -->
       <h2>Our Courses</h2>
       <p>
@@ -173,7 +187,7 @@
         </li>
       </ol>
     </section>
-    <section id="our-mentors">
+    <section id="our-mentors" hidden>
       <!-- h2+ul>li*4>img+h3+p -->
       <h2>Our Mentors</h2>
       <ul>
@@ -199,7 +213,7 @@
         </li>
       </ul>
     </section>
-    <section id="reviews">
+    <section id="reviews" hidden>
       <div class="container">
         <h2 class="reviews-title">Reviews</h2>
         <ul class="reviews-list">
